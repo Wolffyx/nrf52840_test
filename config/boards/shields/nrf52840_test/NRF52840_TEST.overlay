@@ -1,11 +1,6 @@
-#include <nordic/nrf52840_qiaa.dtsi>
-#include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-	model = "Nordic nRF52840 DK NRF52840";
-	compatible = "nordic,nrf52840-dk-nrf52840";
-
 	chosen {
 		zmk,kscan = &kscan;
 		zmk,matrix_transform = &transform;
