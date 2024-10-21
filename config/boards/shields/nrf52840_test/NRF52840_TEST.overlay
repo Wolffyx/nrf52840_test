@@ -1,5 +1,4 @@
 #include <nordic/nrf52840_qiaa.dtsi>
-#include "NRF52840_TEST-pinctrl.dtsi"
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
 / {
